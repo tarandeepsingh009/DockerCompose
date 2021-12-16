@@ -7,4 +7,4 @@ cache = redis.Redis(host='redis', port=6379)
 
 @app.route('/')
 def hello():
-    return"Hello World!"
+    return"Hello Docker!"
